@@ -1,0 +1,13 @@
+{
+  "description": "Task to revoke an RBAC users status.",
+  "parameters": {
+    "token": {
+      "description": "RBAC token with user revoke permissions.",
+      "type": "Optional[String]"
+    },
+    "username": {
+      "description": "RBAC username that will be updated with a revoked status.",
+      "type": "String"
+    }
+  }
+}
